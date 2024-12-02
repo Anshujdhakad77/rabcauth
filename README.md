@@ -1,7 +1,7 @@
 Overview
 
 
-This project implements a secure Authentication, Authorization, and Role-Based Access Control (RBAC) system using Node.js, Express.js, and MongoDB. It enables users to register, log in, and access resources based on their roles (
+This project implements a secure Authentication, Authorization, and Role-Based Access Control (RBAC) system using Node.js, Express.js, and MongoDB. It enables users to register, log in, and access resources based on their roles 
 
 
 Authentication
@@ -50,7 +50,7 @@ Create a .env file in the root directory and add:
 
 env
 Copy code
-PORT=5000
+PORT=3000
 MONGO_URI=mongodb://localhost:27017/rbac_system
 JWT_SECRET=your_jwt_secret_key
 JWT_EXPIRES_IN=10d
